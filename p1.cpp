@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int main (){
 
     int n;
@@ -22,12 +21,6 @@ int main (){
             }
             cout<< endl;
         }
-
-
-        //ki re ki khobor?
         
-    
-
-
     return 0;
 }
