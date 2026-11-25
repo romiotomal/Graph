@@ -28,14 +28,11 @@ void bfs() {
 BFS(Graph, start):
     create a queue Q
     create a visited array/set vis, initialized to false
-
     vis[start] ← true
     Q.enqueue(start)
-
     while Q is not empty:
         u ← Q.dequeue()
         print u
-
         for each neighbor v of u in Graph:
             if vis[v] is false:
                 vis[v] ← true
@@ -74,16 +71,12 @@ void dfs() {
 DFS_Iterative(Graph, start):
     create a stack S
     create a visited array/set vis, initialized to false
-
     S.push(start)
-
     while S is not empty:
         u ← S.pop()
-
         if vis[u] is false:
             vis[u] ← true
             print u
-
             for each neighbor v of u in Graph:
                 if vis[v] is false:
                     S.push(v)
